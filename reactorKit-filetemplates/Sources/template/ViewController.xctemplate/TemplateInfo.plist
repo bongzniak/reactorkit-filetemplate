@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Summary</key>
+	<string>ViewController Template</string>
+	<key>Description</key>
+	<string>ViewController Template.</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>MainTemplateFiles</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Domain name:</string>
+			<key>Description</key>
+			<string>도메인 이름 입력</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict> 
+		<dict>
+			<key>Identifier</key>
+			<string>withCollectionView</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>with collectionView</string>
+			<key>Description</key>
+			<string>collectionView 존재 여부</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<string>true</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>sectionName</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>withCollectionView</key>
+				<string>true</string>
+				<key>withoutCollectionView</key>
+				<string>false</string>
+			</dict>
+			<key>Name</key>
+			<string>section:</string>
+			<key>Description</key>
+			<string>collectionView에서 사용할 section 이름을 입력(section을 먼저 생성 후 진행하기를 권장합니다.)</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

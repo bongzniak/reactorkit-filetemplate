@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>ViewController Template.</string>
+	<key>Summary</key>
+	<string>ViewController Template</string>
+	<key>SortOrder</key>
+	<string>3</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Section name:</string>
+			<key>Description</key>
+			<string>Section 이름 입력</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict> 
+		<dict>
+			<key>Identifier</key>
+			<string>withAnimation</string>
+			<key>Required</key>
+			<string>true</string>
+			<key>Name</key>
+			<string>with animation</string>
+			<key>Description</key>
+			<string>collectionView 존재 여부</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<string>true</string>
+		</dict>
+	</array>
+</dict>
+</plist>
