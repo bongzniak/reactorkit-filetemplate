@@ -4,7 +4,7 @@ import ReactorKit
 import RxCocoa
 import RxSwift
 
-final class ___VARIABLE_productName___Reactor: Reactor {
+final class ___VARIABLE_productName___ViewReactor: Reactor {
   
     enum Action {
         case refresh

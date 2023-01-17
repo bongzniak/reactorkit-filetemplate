@@ -6,7 +6,8 @@ import ReactorKit
 import RxCocoa
 import RxSwift
 
-final class ___VARIABLE_productName___ViewController: BaseViewController, ReactorKit.View {
+final class ___VARIABLE_productName___ViewController: 
+    BaseViewController, ReactorKit.View, ___VARIABLE_productName___Coordinator {
     
     typealias Reactor = ___VARIABLE_productName___ViewReactor
     
@@ -27,6 +28,8 @@ final class ___VARIABLE_productName___ViewController: BaseViewController, Reacto
     }
     
     // MARK: Properties
+
+    private weak var coordinator: ___VARIABLE_productName___Coordinator?
     
     // MARK: UI
     
@@ -61,11 +64,12 @@ final class ___VARIABLE_productName___ViewController: BaseViewController, Reacto
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.coordinator = self
     }
     
     override func addViews() {
         super.addViews()
-        
     }
     
     override func setupConstraints() {

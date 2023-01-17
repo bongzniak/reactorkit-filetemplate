@@ -41,6 +41,7 @@ final class ___VARIABLE_productName___View: BaseView {
     // MARK: Properties
 
     var dataSource: RxDataSource!
+    let sections = PublishRelay<[CommonSection]>()
     
     // MARK: UI
     let refreshControl = UIRefreshControl()
@@ -63,12 +64,14 @@ final class ___VARIABLE_productName___View: BaseView {
         super.init()
         
         dataSource = dataSourceFactory()
+
+        bind()
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     // MARK: - UI Setup
     
     override func addViews() {
@@ -89,6 +92,16 @@ final class ___VARIABLE_productName___View: BaseView {
         collectionView.snp.makeConstraints {
             $0.edges.equalTo(safeAreaLayoutGuide)
         }
+    }
+
+    private func bind() {
+        collectionView.rx.setDelegate(self)
+            .disposed(by: self.disposeBag)
+        
+        sections
+            .asDriver(onErrorJustReturn: [])
+            .drive(collectionView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)
     }
 }
 
