@@ -11,7 +11,8 @@ import ReactorKit
 import RxCocoa
 import RxSwift
 
-final class WithoutCollectionViewController: BaseViewController, ReactorKit.View {
+final class WithoutCollectionViewController: 
+    BaseViewController, ReactorKit.View, WithoutCollectionCoordinator {
     
     typealias Reactor = WithoutCollectionViewReactor
     
@@ -32,6 +33,8 @@ final class WithoutCollectionViewController: BaseViewController, ReactorKit.View
     }
     
     // MARK: Properties
+
+    private weak var coordinator: WithoutCollectionCoordinator?
     
     // MARK: UI
     
@@ -66,11 +69,12 @@ final class WithoutCollectionViewController: BaseViewController, ReactorKit.View
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.coordinator = self
     }
     
     override func addViews() {
         super.addViews()
-        
     }
     
     override func setupConstraints() {

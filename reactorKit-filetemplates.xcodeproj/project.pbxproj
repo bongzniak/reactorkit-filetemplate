@@ -18,14 +18,6 @@
 		74526FD62977011E00FF3342 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526FA02977011D00FF3342 /* BaseCoordinator.swift */; };
 		74526FD72977011E00FF3342 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526FA12977011D00FF3342 /* BaseView.swift */; };
 		745270852977091100FF3342 /* CommonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270842977091100FF3342 /* CommonSection.swift */; };
-		7452708B2977093700FF3342 /* WithoutCollectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270872977093700FF3342 /* WithoutCollectionCoordinator.swift */; };
-		7452708C2977093700FF3342 /* WithoutCollectionViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270882977093700FF3342 /* WithoutCollectionViewReactor.swift */; };
-		7452708D2977093700FF3342 /* WithoutCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270892977093700FF3342 /* WithoutCollectionViewController.swift */; };
-		7452708E2977093700FF3342 /* WithoutCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452708A2977093700FF3342 /* WithoutCollectionView.swift */; };
-		7452709329770BA100FF3342 /* WithCollectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452708F29770BA100FF3342 /* WithCollectionCoordinator.swift */; };
-		7452709429770BA100FF3342 /* WithCollectionViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452709029770BA100FF3342 /* WithCollectionViewReactor.swift */; };
-		7452709529770BA100FF3342 /* WithCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452709129770BA100FF3342 /* WithCollectionViewController.swift */; };
-		7452709629770BA100FF3342 /* WithCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452709229770BA100FF3342 /* WithCollectionView.swift */; };
 		7452709C29770BEB00FF3342 /* WithoutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452709A29770BEB00FF3342 /* WithoutCollectionViewCell.swift */; };
 		7452709D29770BEB00FF3342 /* WithoutCollectionViewCellReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452709B29770BEB00FF3342 /* WithoutCollectionViewCellReactor.swift */; };
 		745270A029770C0000FF3342 /* WithCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452709E29770C0000FF3342 /* WithCollectionViewCell.swift */; };
@@ -35,6 +27,14 @@
 		745270A729770C3B00FF3342 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270A629770C3B00FF3342 /* Networking.swift */; };
 		745270A929770CCB00FF3342 /* CommonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270A829770CCB00FF3342 /* CommonType.swift */; };
 		745270AB29770CD900FF3342 /* CommonEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270AA29770CD900FF3342 /* CommonEvents.swift */; };
+		745270C82977151C00FF3342 /* WithoutCollectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270C42977151C00FF3342 /* WithoutCollectionCoordinator.swift */; };
+		745270C92977151C00FF3342 /* WithoutCollectionViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270C52977151C00FF3342 /* WithoutCollectionViewReactor.swift */; };
+		745270CA2977151C00FF3342 /* WithoutCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270C62977151C00FF3342 /* WithoutCollectionViewController.swift */; };
+		745270CB2977151C00FF3342 /* WithoutCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270C72977151C00FF3342 /* WithoutCollectionView.swift */; };
+		745270D02977154E00FF3342 /* WithCollectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270CC2977154E00FF3342 /* WithCollectionCoordinator.swift */; };
+		745270D12977154E00FF3342 /* WithCollectionViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270CD2977154E00FF3342 /* WithCollectionViewReactor.swift */; };
+		745270D22977154E00FF3342 /* WithCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270CE2977154E00FF3342 /* WithCollectionViewController.swift */; };
+		745270D32977154E00FF3342 /* WithCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270CF2977154E00FF3342 /* WithCollectionView.swift */; };
 		E6C40032F4152AB6B09C4F8F /* Pods_reactorKit_filetemplates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA69B6FE64B8A5E23D4422EE /* Pods_reactorKit_filetemplates.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,14 +90,6 @@
 		7452703A297706DC00FF3342 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		7452703B297706DC00FF3342 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		745270842977091100FF3342 /* CommonSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSection.swift; sourceTree = "<group>"; };
-		745270872977093700FF3342 /* WithoutCollectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionCoordinator.swift; sourceTree = "<group>"; };
-		745270882977093700FF3342 /* WithoutCollectionViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionViewReactor.swift; sourceTree = "<group>"; };
-		745270892977093700FF3342 /* WithoutCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionViewController.swift; sourceTree = "<group>"; };
-		7452708A2977093700FF3342 /* WithoutCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionView.swift; sourceTree = "<group>"; };
-		7452708F29770BA100FF3342 /* WithCollectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionCoordinator.swift; sourceTree = "<group>"; };
-		7452709029770BA100FF3342 /* WithCollectionViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionViewReactor.swift; sourceTree = "<group>"; };
-		7452709129770BA100FF3342 /* WithCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionViewController.swift; sourceTree = "<group>"; };
-		7452709229770BA100FF3342 /* WithCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionView.swift; sourceTree = "<group>"; };
 		7452709A29770BEB00FF3342 /* WithoutCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionViewCell.swift; sourceTree = "<group>"; };
 		7452709B29770BEB00FF3342 /* WithoutCollectionViewCellReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionViewCellReactor.swift; sourceTree = "<group>"; };
 		7452709E29770C0000FF3342 /* WithCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -107,6 +99,14 @@
 		745270A629770C3B00FF3342 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		745270A829770CCB00FF3342 /* CommonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonType.swift; sourceTree = "<group>"; };
 		745270AA29770CD900FF3342 /* CommonEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEvents.swift; sourceTree = "<group>"; };
+		745270C42977151C00FF3342 /* WithoutCollectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionCoordinator.swift; sourceTree = "<group>"; };
+		745270C52977151C00FF3342 /* WithoutCollectionViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionViewReactor.swift; sourceTree = "<group>"; };
+		745270C62977151C00FF3342 /* WithoutCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionViewController.swift; sourceTree = "<group>"; };
+		745270C72977151C00FF3342 /* WithoutCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutCollectionView.swift; sourceTree = "<group>"; };
+		745270CC2977154E00FF3342 /* WithCollectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionCoordinator.swift; sourceTree = "<group>"; };
+		745270CD2977154E00FF3342 /* WithCollectionViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionViewReactor.swift; sourceTree = "<group>"; };
+		745270CE2977154E00FF3342 /* WithCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionViewController.swift; sourceTree = "<group>"; };
+		745270CF2977154E00FF3342 /* WithCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionView.swift; sourceTree = "<group>"; };
 		AA69B6FE64B8A5E23D4422EE /* Pods_reactorKit_filetemplates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactorKit_filetemplates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA09DCEC20ABD2605690860 /* Pods-reactorKit-filetemplates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactorKit-filetemplates.release.xcconfig"; path = "Target Support Files/Pods-reactorKit-filetemplates/Pods-reactorKit-filetemplates.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -344,10 +344,10 @@
 		7452707B297708AD00FF3342 /* WithCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				7452708F29770BA100FF3342 /* WithCollectionCoordinator.swift */,
-				7452709029770BA100FF3342 /* WithCollectionViewReactor.swift */,
-				7452709129770BA100FF3342 /* WithCollectionViewController.swift */,
-				7452709229770BA100FF3342 /* WithCollectionView.swift */,
+				745270CC2977154E00FF3342 /* WithCollectionCoordinator.swift */,
+				745270CD2977154E00FF3342 /* WithCollectionViewReactor.swift */,
+				745270CE2977154E00FF3342 /* WithCollectionViewController.swift */,
+				745270CF2977154E00FF3342 /* WithCollectionView.swift */,
 			);
 			path = WithCollectionView;
 			sourceTree = "<group>";
@@ -355,10 +355,10 @@
 		745270862977092300FF3342 /* WithoutCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				745270872977093700FF3342 /* WithoutCollectionCoordinator.swift */,
-				745270882977093700FF3342 /* WithoutCollectionViewReactor.swift */,
-				745270892977093700FF3342 /* WithoutCollectionViewController.swift */,
-				7452708A2977093700FF3342 /* WithoutCollectionView.swift */,
+				745270C42977151C00FF3342 /* WithoutCollectionCoordinator.swift */,
+				745270C52977151C00FF3342 /* WithoutCollectionViewReactor.swift */,
+				745270C62977151C00FF3342 /* WithoutCollectionViewController.swift */,
+				745270C72977151C00FF3342 /* WithoutCollectionView.swift */,
 			);
 			path = WithoutCollectionView;
 			sourceTree = "<group>";
@@ -523,30 +523,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				745270AB29770CD900FF3342 /* CommonEvents.swift in Sources */,
-				7452708B2977093700FF3342 /* WithoutCollectionCoordinator.swift in Sources */,
+				745270C82977151C00FF3342 /* WithoutCollectionCoordinator.swift in Sources */,
 				745270A129770C0000FF3342 /* WithCollectionViewCellReactor.swift in Sources */,
-				7452709429770BA100FF3342 /* WithCollectionViewReactor.swift in Sources */,
-				7452708E2977093700FF3342 /* WithoutCollectionView.swift in Sources */,
-				7452709329770BA100FF3342 /* WithCollectionCoordinator.swift in Sources */,
 				74526FD52977011E00FF3342 /* BaseCollectionViewCell.swift in Sources */,
 				745270A929770CCB00FF3342 /* CommonType.swift in Sources */,
 				74526FD62977011E00FF3342 /* BaseCoordinator.swift in Sources */,
 				745270A729770C3B00FF3342 /* Networking.swift in Sources */,
-				7452709629770BA100FF3342 /* WithCollectionView.swift in Sources */,
+				745270C92977151C00FF3342 /* WithoutCollectionViewReactor.swift in Sources */,
 				74526F8E2977011100FF3342 /* ViewController.swift in Sources */,
 				745270852977091100FF3342 /* CommonSection.swift in Sources */,
+				745270D02977154E00FF3342 /* WithCollectionCoordinator.swift in Sources */,
 				7452709C29770BEB00FF3342 /* WithoutCollectionViewCell.swift in Sources */,
-				7452708D2977093700FF3342 /* WithoutCollectionViewController.swift in Sources */,
+				745270CA2977151C00FF3342 /* WithoutCollectionViewController.swift in Sources */,
 				745270A029770C0000FF3342 /* WithCollectionViewCell.swift in Sources */,
+				745270D32977154E00FF3342 /* WithCollectionView.swift in Sources */,
+				745270CB2977151C00FF3342 /* WithoutCollectionView.swift in Sources */,
 				74526FD42977011E00FF3342 /* BaseViewController.swift in Sources */,
 				74526FD72977011E00FF3342 /* BaseView.swift in Sources */,
 				74526F8A2977011100FF3342 /* AppDelegate.swift in Sources */,
 				745270A429770C2600FF3342 /* CommonAPI.swift in Sources */,
-				7452708C2977093700FF3342 /* WithoutCollectionViewReactor.swift in Sources */,
 				745270A529770C2600FF3342 /* CommonService.swift in Sources */,
+				745270D22977154E00FF3342 /* WithCollectionViewController.swift in Sources */,
 				74526F8C2977011100FF3342 /* SceneDelegate.swift in Sources */,
+				745270D12977154E00FF3342 /* WithCollectionViewReactor.swift in Sources */,
 				7452709D29770BEB00FF3342 /* WithoutCollectionViewCellReactor.swift in Sources */,
-				7452709529770BA100FF3342 /* WithCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
