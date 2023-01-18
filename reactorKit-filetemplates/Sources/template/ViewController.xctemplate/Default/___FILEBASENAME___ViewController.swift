@@ -81,7 +81,7 @@ extension ___VARIABLE_productName___ViewController {
     class func instance() -> ___VARIABLE_productName___ViewController {
         ___VARIABLE_productName___ViewController(
             reactor: ___VARIABLE_productName___ViewReactor(),
-            bodyView: ___VARIABLE_productName___View.resolve()
+            bodyView: ___VARIABLE_productName___View.instance()
         )
     }
 }

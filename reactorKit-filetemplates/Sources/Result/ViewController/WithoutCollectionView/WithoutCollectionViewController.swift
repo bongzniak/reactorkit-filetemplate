@@ -73,14 +73,6 @@ final class WithoutCollectionViewController:
         self.coordinator = self
     }
     
-    override func addViews() {
-        super.addViews()
-    }
-    
-    override func setupConstraints() {
-        super.setupConstraints()
-    }
-    
     // MARK: Binding
     
     func bind(reactor: Reactor) {
@@ -94,7 +86,7 @@ extension WithoutCollectionViewController {
     class func instance() -> WithoutCollectionViewController {
         WithoutCollectionViewController(
             reactor: WithoutCollectionViewReactor(),
-            bodyView: WithoutCollectionView.resolve()
+            bodyView: WithoutCollectionView.instance()
         )
     }
 }

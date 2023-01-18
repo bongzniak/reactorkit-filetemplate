@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74073B632977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74073B622977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift */; };
-		74073B652977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74073B642977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift */; };
 		74526F8A2977011100FF3342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526F892977011100FF3342 /* AppDelegate.swift */; };
 		74526F8C2977011100FF3342 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526F8B2977011100FF3342 /* SceneDelegate.swift */; };
 		74526F8E2977011100FF3342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526F8D2977011100FF3342 /* ViewController.swift */; };
@@ -524,7 +522,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74073B652977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */,
 				745270AB29770CD900FF3342 /* CommonEvents.swift in Sources */,
 				745270C82977151C00FF3342 /* WithoutCollectionCoordinator.swift in Sources */,
 				745270A129770C0000FF3342 /* WithCollectionViewCellReactor.swift in Sources */,
@@ -546,7 +543,6 @@
 				74526F8A2977011100FF3342 /* AppDelegate.swift in Sources */,
 				745270A429770C2600FF3342 /* CommonAPI.swift in Sources */,
 				745270A529770C2600FF3342 /* CommonService.swift in Sources */,
-				74073B632977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */,
 				745270D22977154E00FF3342 /* WithCollectionViewController.swift in Sources */,
 				74526F8C2977011100FF3342 /* SceneDelegate.swift in Sources */,
 				745270D12977154E00FF3342 /* WithCollectionViewReactor.swift in Sources */,
