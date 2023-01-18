@@ -68,14 +68,6 @@ final class ___VARIABLE_productName___ViewController:
         self.coordinator = self
     }
     
-    override func addViews() {
-        super.addViews()
-    }
-    
-    override func setupConstraints() {
-        super.setupConstraints()
-    }
-    
     // MARK: Binding
     
     func bind(reactor: Reactor) {

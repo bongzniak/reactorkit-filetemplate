@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74073B632977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74073B622977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift */; };
+		74073B652977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74073B642977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift */; };
 		74526F8A2977011100FF3342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526F892977011100FF3342 /* AppDelegate.swift */; };
 		74526F8C2977011100FF3342 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526F8B2977011100FF3342 /* SceneDelegate.swift */; };
 		74526F8E2977011100FF3342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526F8D2977011100FF3342 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		0CB8674A8798498AB3E18D13 /* Pods-reactorKit-filetemplates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactorKit-filetemplates.debug.xcconfig"; path = "Target Support Files/Pods-reactorKit-filetemplates/Pods-reactorKit-filetemplates.debug.xcconfig"; sourceTree = "<group>"; };
+		74073B622977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewReactor.swift"; sourceTree = "<group>"; };
+		74073B642977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewReactor.swift"; sourceTree = "<group>"; };
 		74526F862977011100FF3342 /* reactorKit-filetemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactorKit-filetemplates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74526F892977011100FF3342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74526F8B2977011100FF3342 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,11 +86,9 @@
 		74527031297706DC00FF3342 /* ___FILEBASENAME___Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Coordinator.swift"; sourceTree = "<group>"; };
 		74527032297706DC00FF3342 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
 		74527033297706DC00FF3342 /* ___FILEBASENAME___View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___View.swift"; sourceTree = "<group>"; };
-		74527034297706DC00FF3342 /* ___FILEBASENAME___Reactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Reactor.swift"; sourceTree = "<group>"; };
 		74527036297706DC00FF3342 /* ___FILEBASENAME___Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Coordinator.swift"; sourceTree = "<group>"; };
 		74527037297706DC00FF3342 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
 		74527038297706DC00FF3342 /* ___FILEBASENAME___View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___View.swift"; sourceTree = "<group>"; };
-		74527039297706DC00FF3342 /* ___FILEBASENAME___Reactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Reactor.swift"; sourceTree = "<group>"; };
 		7452703A297706DC00FF3342 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		7452703B297706DC00FF3342 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		745270842977091100FF3342 /* CommonSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSection.swift; sourceTree = "<group>"; };
@@ -302,7 +304,7 @@
 				74527031297706DC00FF3342 /* ___FILEBASENAME___Coordinator.swift */,
 				74527032297706DC00FF3342 /* ___FILEBASENAME___ViewController.swift */,
 				74527033297706DC00FF3342 /* ___FILEBASENAME___View.swift */,
-				74527034297706DC00FF3342 /* ___FILEBASENAME___Reactor.swift */,
+				74073B642977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift */,
 			);
 			path = Default;
 			sourceTree = "<group>";
@@ -313,7 +315,7 @@
 				74527036297706DC00FF3342 /* ___FILEBASENAME___Coordinator.swift */,
 				74527037297706DC00FF3342 /* ___FILEBASENAME___ViewController.swift */,
 				74527038297706DC00FF3342 /* ___FILEBASENAME___View.swift */,
-				74527039297706DC00FF3342 /* ___FILEBASENAME___Reactor.swift */,
+				74073B622977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift */,
 			);
 			path = withCollectionView;
 			sourceTree = "<group>";
@@ -522,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74073B652977BC0A00341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */,
 				745270AB29770CD900FF3342 /* CommonEvents.swift in Sources */,
 				745270C82977151C00FF3342 /* WithoutCollectionCoordinator.swift in Sources */,
 				745270A129770C0000FF3342 /* WithCollectionViewCellReactor.swift in Sources */,
@@ -543,6 +546,7 @@
 				74526F8A2977011100FF3342 /* AppDelegate.swift in Sources */,
 				745270A429770C2600FF3342 /* CommonAPI.swift in Sources */,
 				745270A529770C2600FF3342 /* CommonService.swift in Sources */,
+				74073B632977BBF000341020 /* ___FILEBASENAME___ViewReactor.swift in Sources */,
 				745270D22977154E00FF3342 /* WithCollectionViewController.swift in Sources */,
 				74526F8C2977011100FF3342 /* SceneDelegate.swift in Sources */,
 				745270D12977154E00FF3342 /* WithCollectionViewReactor.swift in Sources */,

@@ -30,19 +30,5 @@ class BaseViewController: UIViewController {
     // MARK: View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        addViews()
-        setupViews()
-        setupConstraints()
-    }
-    
-    func addViews() {
-    }
-
-    func setupViews() {
-    }
-    
-    func setupConstraints() {
-        // Override point
     }
 }
