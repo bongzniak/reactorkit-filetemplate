@@ -52,7 +52,7 @@ final class ___VARIABLE_productName___View: BaseView {
 }
 
 extension ___VARIABLE_productName___View {
-    class func resolve() -> ___VARIABLE_productName___View {
+    class func instance() -> ___VARIABLE_productName___View {
         ___VARIABLE_productName___View()
     } 
 }

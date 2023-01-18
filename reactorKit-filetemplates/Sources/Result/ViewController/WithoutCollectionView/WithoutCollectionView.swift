@@ -57,7 +57,7 @@ final class WithoutCollectionView: BaseView {
 }
 
 extension WithoutCollectionView {
-    class func resolve() -> WithoutCollectionView {
+    class func instance() -> WithoutCollectionView {
         WithoutCollectionView()
     } 
 }

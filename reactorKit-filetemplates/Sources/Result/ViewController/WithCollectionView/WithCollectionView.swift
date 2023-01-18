@@ -141,7 +141,7 @@ extension WithCollectionView: UICollectionViewDelegateFlowLayout {
 }
 
 extension WithCollectionView {
-    class func resolve() -> WithCollectionView {
+    class func instance() -> WithCollectionView {
         WithCollectionView()
     } 
 }

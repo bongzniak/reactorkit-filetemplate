@@ -78,7 +78,7 @@ final class ___VARIABLE_productName___ViewController:
 }
 
 extension ___VARIABLE_productName___ViewController {
-    class func resolve() -> ___VARIABLE_productName___ViewController {
+    class func instance() -> ___VARIABLE_productName___ViewController {
         ___VARIABLE_productName___ViewController(
             reactor: ___VARIABLE_productName___ViewReactor(),
             bodyView: ___VARIABLE_productName___View.resolve()

@@ -91,7 +91,7 @@ final class WithoutCollectionViewController:
 }
 
 extension WithoutCollectionViewController {
-    class func resolve() -> WithoutCollectionViewController {
+    class func instance() -> WithoutCollectionViewController {
         WithoutCollectionViewController(
             reactor: WithoutCollectionViewReactor(),
             bodyView: WithoutCollectionView.resolve()

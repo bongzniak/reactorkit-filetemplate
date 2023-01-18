@@ -113,7 +113,7 @@ final class WithCollectionViewController:
 }
 
 extension WithCollectionViewController {
-    class func resolve() -> WithCollectionViewController {
+    class func instance() -> WithCollectionViewController {
         WithCollectionViewController(
             reactor: WithCollectionViewReactor(),
             bodyView: WithCollectionView.resolve()
