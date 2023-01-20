@@ -41,7 +41,7 @@ final class ___VARIABLE_productName___View: BaseView {
     // MARK: Properties
 
     var dataSource: RxDataSource!
-    let sections = PublishRelay<[CommonSection]>()
+    let sections = PublishRelay<[___VARIABLE_sectionName___]>()
     
     // MARK: UI
     let refreshControl = UIRefreshControl()
