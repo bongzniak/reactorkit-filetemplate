@@ -10,7 +10,7 @@ import ReusableKit
 import SnapKit
 import Then
 
-final class ___VARIABLE_productName___ListCell: BaseCollectionViewCell, ReactorKit.View {
+final class ___VARIABLE_productName___ListCell: BaseCollectionViewCell, View {
 
     // MARK: Typealias
 
@@ -64,25 +64,27 @@ final class ___VARIABLE_productName___ListCell: BaseCollectionViewCell, ReactorK
         super.prepareForReuse()
     }
 
-    override func layoutSubviews() {
-        super.layoutSubviews()
-    }
-
-    override func addViews() {
-        super.addViews()
-
-        addSubview(collectionView)
-    }
-
-    override func setupViews() {
-        super.setupViews()
-
+    // MARK: Setup
+    
+    override func setupProperty() {
+        super.setupProperty()
+        
         dataSource = dataSourceFactory()
     }
-
-    override func setupConstraints() {
-        super.setupConstraints()
-
+    
+    override func setupDelegate() {
+        super.setupDelegate()
+    }
+    
+    override func setupHierarchy() {
+        super.setupHierarchy()
+        
+        addSubview(collectionView)
+    }
+    
+    override func setupLayout() {
+        super.setupLayout()
+        
         collectionView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
@@ -110,7 +112,8 @@ final class ___VARIABLE_productName___ListCell: BaseCollectionViewCell, ReactorK
 extension ___VARIABLE_productName___ListCell {
     private func dataSourceFactory() -> RxDataSource {
         RxDataSource(
-            configureCell: { [weak self] (dataSource, collectionView, indexPath, sectionItem) -> UICollectionViewCell in
+            configureCell: { [weak self]
+                (dataSource, collectionView, indexPath, sectionItem) -> UICollectionViewCell in
                 switch sectionItem {
                 }
             }

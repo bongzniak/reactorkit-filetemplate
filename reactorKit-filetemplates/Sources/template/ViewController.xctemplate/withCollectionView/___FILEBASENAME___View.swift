@@ -6,13 +6,15 @@ import ReactorKit
 import RxCocoa
 import RxSwift
 import RxDataSources
-import ReusableKit
+import Reusable
 import SnapKit
 import Then
 
 final class ___VARIABLE_productName___View: BaseView {
     
     typealias RxDataSource = RxCollectionViewSectionedReloadDataSource<___VARIABLE_sectionName___>
+    
+    // MARK: Constants
     
     private enum Metric {
         enum CollectionView {
@@ -72,28 +74,34 @@ final class ___VARIABLE_productName___View: BaseView {
         fatalError("init(coder:) has not been implemented")
     }
 
-    // MARK: - UI Setup
+    // MARK: UI Setup
     
-    override func addViews() {
-        super.addViews()
-
+    override func setupProperty() {
+        super.setupProperty()
+        
+        collectionView.refreshControl = refreshControl
+    }
+    
+    override func setupDelegate() {
+        super.setupDelegate()
+    }
+    
+    override func setupHierarchy() {
+        super.setupHierarchy()
+        
         addSubview(collectionView)
     }
     
-    override func setupViews() {
-        super.setupViews()
-
-        collectionView.refreshControl = refreshControl
-    }
-
-    override func setupConstraints() {
-        super.setupConstraints()
-
+    override func setupLayout() {
+        super.setupLayout()
+        
         collectionView.snp.makeConstraints {
             $0.edges.equalTo(safeAreaLayoutGuide)
         }
     }
-
+    
+    // MARK: Binding
+    
     private func bind() {
         collectionView.rx.setDelegate(self)
             .disposed(by: self.disposeBag)
@@ -108,7 +116,8 @@ final class ___VARIABLE_productName___View: BaseView {
 extension ___VARIABLE_productName___View {
     private func dataSourceFactory() -> RxDataSource {
         RxDataSource(
-            configureCell: { [weak self] (dataSource, collectionView, indexPath, sectionItem) -> UICollectionViewCell in
+            configureCell: { [weak self]
+                (dataSource, collectionView, indexPath, sectionItem) -> UICollectionViewCell in
                 switch sectionItem {
                 }
             }

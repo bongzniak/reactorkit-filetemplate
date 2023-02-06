@@ -35,6 +35,7 @@
 		745270D12977154E00FF3342 /* WithCollectionViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270CD2977154E00FF3342 /* WithCollectionViewReactor.swift */; };
 		745270D22977154E00FF3342 /* WithCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270CE2977154E00FF3342 /* WithCollectionViewController.swift */; };
 		745270D32977154E00FF3342 /* WithCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745270CF2977154E00FF3342 /* WithCollectionView.swift */; };
+		746278DE2990B47D00491988 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746278DD2990B47D00491988 /* Logger.swift */; };
 		E6C40032F4152AB6B09C4F8F /* Pods_reactorKit_filetemplates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA69B6FE64B8A5E23D4422EE /* Pods_reactorKit_filetemplates.framework */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +108,7 @@
 		745270CD2977154E00FF3342 /* WithCollectionViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionViewReactor.swift; sourceTree = "<group>"; };
 		745270CE2977154E00FF3342 /* WithCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionViewController.swift; sourceTree = "<group>"; };
 		745270CF2977154E00FF3342 /* WithCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCollectionView.swift; sourceTree = "<group>"; };
+		746278DD2990B47D00491988 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		AA69B6FE64B8A5E23D4422EE /* Pods_reactorKit_filetemplates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactorKit_filetemplates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA09DCEC20ABD2605690860 /* Pods-reactorKit-filetemplates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactorKit-filetemplates.release.xcconfig"; path = "Target Support Files/Pods-reactorKit-filetemplates/Pods-reactorKit-filetemplates.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,10 +159,11 @@
 			isa = PBXGroup;
 			children = (
 				74526F9E2977011D00FF3342 /* BaseViewController.swift */,
+				74526FA12977011D00FF3342 /* BaseView.swift */,
 				74526F9F2977011D00FF3342 /* BaseCollectionViewCell.swift */,
 				74526FA02977011D00FF3342 /* BaseCoordinator.swift */,
-				74526FA12977011D00FF3342 /* BaseView.swift */,
 				745270A629770C3B00FF3342 /* Networking.swift */,
+				746278DD2990B47D00491988 /* Logger.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				745270A729770C3B00FF3342 /* Networking.swift in Sources */,
 				745270C92977151C00FF3342 /* WithoutCollectionViewReactor.swift in Sources */,
 				74526F8E2977011100FF3342 /* ViewController.swift in Sources */,
+				746278DE2990B47D00491988 /* Logger.swift in Sources */,
 				745270852977091100FF3342 /* CommonSection.swift in Sources */,
 				745270D02977154E00FF3342 /* WithCollectionCoordinator.swift in Sources */,
 				7452709C29770BEB00FF3342 /* WithoutCollectionViewCell.swift in Sources */,

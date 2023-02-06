@@ -5,12 +5,12 @@ import UIKit
 import ReactorKit
 import RxCocoa
 import RxSwift
-import RxDataSources
-import ReusableKit
 import SnapKit
 import Then
 
 final class ___VARIABLE_productName___View: BaseView {
+    
+    // MARK: Constants
     
     private enum Metric {
     }
@@ -36,18 +36,22 @@ final class ___VARIABLE_productName___View: BaseView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: - UI Setup
+    // MARK: UI Setup
     
-    override func addViews() {
-        super.addViews()
+    override func setupProperty() {
+        super.setupProperty()
     }
     
-    override func setupViews() {
-        super.setupViews()
+    override func setupDelegate() {
+        super.setupDelegate()
     }
-
-    override func setupConstraints() {
-        super.setupConstraints()
+    
+    override func setupHierarchy() {
+        super.setupHierarchy()
+    }
+    
+    override func setupLayout() {
+        super.setupLayout()
     }
 }
 

@@ -8,43 +8,55 @@ import Foundation
 
 import UIKit
 import RxSwift
+import RxCocoa
 
-class BaseCollectionViewCell: UICollectionViewCell {
-
+open class BaseCollectionViewCell: UICollectionViewCell, BaseViewProtocol {
+    
     // MARK: Properties
-
-    var disposeBag = DisposeBag()
-
+    
+    public var disposeBag = DisposeBag()
+    
+    public let tapGesture = UITapGestureRecognizer()
+    
     // MARK: Initializing
-
-    override init(frame: CGRect) {
+    
+    public override init(frame: CGRect) {
         super.init(frame: .zero)
-
-        translatesAutoresizingMaskIntoConstraints = false
-
-        self.addViews()
-        self.setupViews()
-        self.setupConstraints()
+        
+        setupProperty()
+        setupDelegate()
+        setupHierarchy()
+        setupLayout()
+        
+        self.addGestureRecognizer(self.tapGesture)
+        self.contentView.isUserInteractionEnabled = true
     }
-
-    required init?(coder aDecoder: NSCoder) {
+    
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
-    override func prepareForReuse() {
+    
+    deinit {
+        logger.verbose("DEINIT: \(String(describing: type(of: self)))")
+    }
+    
+    open override func prepareForReuse() {
         super.prepareForReuse()
-
+        
         disposeBag = DisposeBag()
     }
-
+    
     // MARK: UI Setup
+    
+    open func setupProperty() {}
+    open func setupDelegate() {}
+    open func setupHierarchy() {}
+    open func setupLayout() {}
+}
 
-    func addViews() {
-    }
-
-    func setupViews() {
-    }
-
-    func setupConstraints() {
+extension Reactive where Base: BaseCollectionViewCell {
+    public var tap: ControlEvent<Void> {
+        return ControlEvent(events: base.tapGesture.rx.event.map { _ in () })
     }
 }
+

@@ -8,9 +8,11 @@ import RxSwift
 import SnapKit
 import Then
 
-final class ___VARIABLE_productName___Cell: BaseCollectionViewCell, ReactorKit.View {
+final class ___VARIABLE_productName___Cell: BaseCollectionViewCell, View {
     
     typealias Reactor = ___VARIABLE_productName___CellReactor
+    
+    // MARK: Constants
     
     private enum Metric {
         static let height: CGFloat = .zero
@@ -34,19 +36,24 @@ final class ___VARIABLE_productName___Cell: BaseCollectionViewCell, ReactorKit.V
     
     // MARK: UI Setup
     
-    override func addViews() {
-        super.addViews()
+    override func setupProperty() {
+        super.setupProperty()
     }
     
-    override func setupViews() {
-        super.setupViews()
+    override func setupDelegate() {
+        super.setupDelegate()
     }
     
-    override func setupConstraints() {
-        super.setupConstraints()
+    override func setupHierarchy() {
+        super.setupHierarchy()
+    }
+    
+    override func setupLayout() {
+        super.setupLayout()
     }
     
     // MARK: Binding
+    
     func bind(reactor: Reactor) {
         
         // Action

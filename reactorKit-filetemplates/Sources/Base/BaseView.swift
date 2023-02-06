@@ -13,36 +13,52 @@ import RxSwift
 import RxCocoa
 import Then
 
-class BaseView: UIView {
+/*
+ BaseViewController
+ - setupProperty()
+ - 프로퍼티 관련 - label.font, ...
+ - setupDelegate()
+ - 델리게이트 패턴 관련 - bodyView.delegate = self, ...
+ - setupHierarchy()
+ - 계층 관련 - addSubView, ...
+ - setupLayout()
+ - 레이아웃 관련 - view.snp.makeConstraints, ...
+ */
+
+protocol BaseViewProtocol {
+    func setupProperty()
+    func setupDelegate()
+    func setupHierarchy()
+    func setupLayout()
+}
+
+open class BaseView: UIView, BaseViewProtocol {
+    
+    public var disposeBag = DisposeBag()
     
     // MARK: Properties
     
-    var disposeBag = DisposeBag()
-
-    // MARK: Properties
-
-    init() {
+    // MARK: Initializing
+    
+    public init() {
         super.init(frame: .zero)
-
-        addViews()
-        setupViews()
-        setupConstraints()
+        
+        setupProperty()
+        setupDelegate()
+        setupHierarchy()
+        setupLayout()
     }
-
-    required convenience init?(coder aDecoder: NSCoder) {
+    
+    public required convenience init?(coder aDecoder: NSCoder) {
         self.init()
     }
-
-    lazy private(set) var className: String = {
-        return type(of: self).description().components(separatedBy: ".").last ?? ""
-    }()
-
-    func addViews() {
+    
+    deinit {
+        logger.verbose("DEINIT: \(String(describing: type(of: self)))")
     }
-
-    func setupViews() {
-    }
-
-    func setupConstraints() {
-    }
+    
+    open func setupProperty() {}
+    open func setupDelegate() {}
+    open func setupHierarchy() {}
+    open func setupLayout() {}
 }

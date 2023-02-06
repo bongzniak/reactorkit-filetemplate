@@ -6,6 +6,9 @@ import RxSwift
 
 class ___VARIABLE_productName___CellReactor: Reactor {
     
+//    typealias Action = NoAction
+//    typealias Mutation = NoMutation
+    
     enum Action {
     }
     

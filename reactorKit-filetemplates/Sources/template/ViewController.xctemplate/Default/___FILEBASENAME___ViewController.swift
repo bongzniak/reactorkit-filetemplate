@@ -6,26 +6,9 @@ import ReactorKit
 import RxCocoa
 import RxSwift
 
-final class ___VARIABLE_productName___ViewController: 
-    BaseViewController, ReactorKit.View, ___VARIABLE_productName___Coordinator {
+final class ___VARIABLE_productName___ViewController: BaseViewController, View, ___VARIABLE_productName___Coordinator {
     
     typealias Reactor = ___VARIABLE_productName___ViewReactor
-    
-    private enum Metric {
-        
-    }
-    
-    private enum Color {
-        
-    }
-    
-    private enum Font {
-        
-    }
-    
-    private enum Localized {
-        
-    }
     
     // MARK: Properties
 
@@ -64,7 +47,17 @@ final class ___VARIABLE_productName___ViewController:
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    }
+    
+    // MARK: Setup
+    
+    override func setupProperty() {
+        super.setupProperty()
+    }
+    
+    override func setupDelegate() {
+        super.setupDelegate()
+        
         self.coordinator = self
     }
     
