@@ -2,10 +2,10 @@
 
 import Foundation
 
-protocol ___VARIABLE_productName___Coordinator: BaseCoordinator, AnyObject {
+public final class ___VARIABLE_productName___Coordinator: Coordinator {
     
-    private var childCoordinators: [Coordinator] = []
-    private var navigationController: UINavigationController
+    public var childCoordinators: [Coordinator] = []
+    public var navigationController: UINavigationController
     
     // MARK: Initializer
     
