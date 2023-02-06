@@ -1,6 +1,7 @@
 //___FILEHEADER___
 
 import Foundation
+import UIKit
 
 public final class ___VARIABLE_productName___Coordinator: Coordinator {
     
