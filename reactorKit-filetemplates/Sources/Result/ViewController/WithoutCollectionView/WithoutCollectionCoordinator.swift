@@ -7,10 +7,10 @@
 
 import Foundation
 
-protocol WithoutCollectionCoordinator: BaseCoordinator, AnyObject {
+protocol WithoutCollectionCoordinator: Coordinator, AnyObject {
     
 }
 
-extension WithoutCollectionCoordinator {
+extension WithoutCollectionCoordinator where Self: WithoutCollectionViewController {
     
 }

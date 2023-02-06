@@ -4,8 +4,15 @@ import Foundation
 
 protocol ___VARIABLE_productName___Coordinator: BaseCoordinator, AnyObject {
     
-}
-
-extension ___VARIABLE_productName___Coordinator {
+    private var childCoordinators: [Coordinator] = []
+    private var navigationController: UINavigationController
     
+    // MARK: Initializer
+    
+    public init(navigationController: UINavigationController) {
+        self.navigationController = navigationController
+    }
+    
+    public func start() {
+    }
 }

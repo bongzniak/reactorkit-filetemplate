@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol WithCollectionCoordinator: BaseCoordinator, AnyObject {
+protocol WithCollectionCoordinator: Coordinator, AnyObject {
     
 }
 

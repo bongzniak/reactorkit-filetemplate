@@ -1,5 +1,5 @@
 //
-//  BaseCoordinator.swift
+//  Coordinator.swift
 //  appname
 //
 //  Created by bongzniak on 2023/01/17.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol BaseCoordinator {
+protocol Coordinator {
     var presenter: BaseViewController { get }
 }
 
-extension BaseCoordinator where Self: BaseViewController {
+extension Coordinator where Self: BaseViewController {
     var presenter: BaseViewController {
         return self
     }

@@ -6,8 +6,7 @@ import ReactorKit
 import RxCocoa
 import RxSwift
 
-final class ___VARIABLE_productName___ViewController: 
-    BaseViewController, View, ___VARIABLE_productName___Coordinator {
+final class ___VARIABLE_productName___ViewController: BaseViewController, View {
     
     typealias Reactor = ___VARIABLE_productName___ViewReactor
     
