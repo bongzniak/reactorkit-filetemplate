@@ -47,7 +47,7 @@ final class ___VARIABLE_productName___View: BaseView {
         super.setupLayout()
     }
 
-    func setupBind() {
-
+    override func setupBind() {
+        super.setupBind()
     }
 }
